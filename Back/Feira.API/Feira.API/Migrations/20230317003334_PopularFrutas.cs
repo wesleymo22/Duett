@@ -11,7 +11,7 @@ namespace Feira.API.Migrations
             migrationBuilder.Sql("INSERT INTO Frutas(Fruta, ValorA, ValorB) " +
                 "VALUES('Banana', 10, 2)");
             migrationBuilder.Sql("INSERT INTO Frutas(Fruta, ValorA, ValorB) " +
-                "VALUES('Maça', 0, 5)");
+                "VALUES('Maça', 2, 5)");
             migrationBuilder.Sql("INSERT INTO Frutas(Fruta, ValorA, ValorB) " +
                 "VALUES('Uva', 20, 10)");
         }
